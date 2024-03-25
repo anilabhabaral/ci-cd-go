@@ -1,6 +1,6 @@
 # Complete CI CD pipeline for a go web application
 
-### Test application locally
+### Run & Test application locally
 - Build application
 ```
 go build .

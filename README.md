@@ -1,8 +1,13 @@
 # Complete CI CD pipeline for a go web application
 
 ### Run & Test application locally
+- Clone repo
+```
+git clone https://github.com/anilabhabaral/ci-cd-go.git
+```
 - Build application
 ```
+cd ci-cd-go
 go build .
 ```
 - Run the Tests

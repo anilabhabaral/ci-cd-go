@@ -5,7 +5,7 @@
 ```
 go build .
 ```
-- Test application
+- Run the Tests
 ```
 go test -v 
 ```

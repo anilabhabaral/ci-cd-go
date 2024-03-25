@@ -1,4 +1,5 @@
-FROM golang:1.21
+FROM quay.io/rhn_support_abaral1/go:1.21
+
 
 WORKDIR /app
 

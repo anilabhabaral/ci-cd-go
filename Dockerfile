@@ -18,4 +18,6 @@ go build .
 
 FROM ubi8/ubi-micro
 COPY --from=build /ci-cd-go .
+EXPOSE 8080
+
 CMD ./ci-cd-go

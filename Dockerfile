@@ -1,4 +1,4 @@
-FROM ubi8/go-toolset as build
+FROM ubi8/go-toolset
 COPY * .
 
 RUN go build .

@@ -12,7 +12,7 @@ COPY *.go ./
 # RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ci_cd_go
 
 # EXPOSE 8080
-go build -o ci-cd-go
+go build .
 
 # CMD ["./ci_cd_go"]
 

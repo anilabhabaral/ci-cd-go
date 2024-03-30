@@ -4,7 +4,7 @@ FROM --platform="linux/amd64" quay.io/rhn_support_abaral1/go:1.21
 WORKDIR /app
 
 COPY go.mod go.sum ./
-RUN go mod download
+# RUN go mod download
 
 COPY *.go ./
 

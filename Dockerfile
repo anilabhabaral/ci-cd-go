@@ -13,6 +13,8 @@ COPY *.go ./
 
 # EXPOSE 8080
 RUN go build .
+RUN chmod 755 ci-cd-go
+
 EXPOSE 8080
 
 CMD ./ci-cd-go

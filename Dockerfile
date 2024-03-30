@@ -9,12 +9,13 @@ RUN go mod download
 COPY *.go ./
 
 
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ci_cd_go
+# RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ci_cd_go
 
 # EXPOSE 8080
+go build -o ci-cd-go
 
 # CMD ["./ci_cd_go"]
 
 FROM ubi8/ubi-micro
-COPY --from=build /ci_cd_go .
-CMD ./ci_cd_go
+COPY --from=build /ci-cd-go .
+CMD ./ci-cd-go

@@ -17,7 +17,7 @@ go build .
 # CMD ["./ci_cd_go"]
 
 FROM ubi8/ubi-micro
-COPY --from=build /ci-cd-go .
+COPY --from=build /app/ci-cd-go .
 EXPOSE 8080
 
 CMD ./ci-cd-go

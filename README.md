@@ -1,4 +1,4 @@
-# Complete CI CD pipeline for a go web application
+# CI CD pipeline for a go web application
 
 ### Run & Test application locally
 - Clone repo

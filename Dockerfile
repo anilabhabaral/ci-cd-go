@@ -4,13 +4,13 @@ FROM --platform="linux/x86_64" registry.access.redhat.com/ubi8/go-toolset:latest
 WORKDIR /app
 
 COPY go.mod go.sum ./
-# RUN go mod download
+RUN go mod download
 
 COPY *.go ./
 
 
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ci-cd-go
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -o ci_cd_go
 
 EXPOSE 8080
 
-CMD ["./ci-cd-go"]
+CMD ["./ci_cd_go"]

@@ -10,5 +10,5 @@ spec:
       args:
         - |
           echo ">>>>>>>> Deleting old helloworld application pod <<<<<<<<<<<"
-          oc scale deployment helloworld-deployment --replicas=0
+          oc scale deployment go-web-app-deployment --replicas=0
           echo -----------------------------------

@@ -11,7 +11,7 @@ func Api() {
 
 	m := martini.Classic()
 	m.Get("/greet", func() string {
-		return "Hello anil! \n"
+		return "Hello world! \n"
 	})
 	m.Get("/hello/:name", func(params martini.Params) string {
 		return "Hello " + PrintName(params["name"]) + "\n"

@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web-app
-        image: quay.io/rhn_support_abaral1/go-web-app
+        image: image-registry.openshift-image-registry.svc:5000/abaral-test002/go-web-app:latest
         ports:
         - containerPort: 8080

@@ -35,7 +35,7 @@ oc login --token=<TOKEN> --server=<SERVER_URL>
 ```
 - Create new project/namespace in Openshift cluster 
 ```
-oc new-project testpipeline
+oc new-project go-app-pipeline
 ```
 - Install Red Hat OpenShift Pipelines from Operators --> Operator Hub
 - Run the following command to see the pipeline service account $

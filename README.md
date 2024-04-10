@@ -25,8 +25,9 @@ curl localhost:8080/hello/Anilabha
 ```
 
 ### Pipeline (CI)
-- Pipeline:
+
 ![fig-1](https://github.com/anilabhabaral/ci-cd-go/blob/main/screenshot/pipeline.png)
+
 
 - Clone this repo 
 ```

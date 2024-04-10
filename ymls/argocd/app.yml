@@ -5,7 +5,7 @@ metadata:
 spec:
   destination:
     name: ''
-    namespace: abaral-test002
+    namespace: go-app-pipeline
     server: 'https://kubernetes.default.svc'
   source:
     path: ymls/deployment

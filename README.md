@@ -59,6 +59,13 @@ oc get pipeline,task
 ```
 tkn pipeline start go-pipeline -w name=workspace-test,volumeClaimTemplateFile=https://raw.githubusercontent.com/anilabhabaral/ci-cd-go/main/ymls/pvc/pvc.yml --use-param-defaults
 ```
-- 
+- Check the pipelinerun
+```
+tkn pipelinerun ls
+```
+- Check the log of the pipelinerun
+```
+tkn pipelinerun logs <pipelinerun_name>
+```
 
 # In progress!!!

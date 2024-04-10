@@ -94,7 +94,7 @@ oc get application -n openshift-gitops
 
 ### Access the deployed application in Openshift
 
-- Get all the resource in the namespace 
+- Get all the resources in the namespace `go-app-pipeline`
 ```
 $ oc get all -n go-app-pipeline
 

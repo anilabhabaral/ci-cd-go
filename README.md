@@ -96,7 +96,7 @@ oc get application -n openshift-gitops
 
 - Get all the resource in the namespace 
 ```
-$ oc get all   
+$ oc get all -n go-app-pipeline
 
 NAME                                                                 READY   STATUS      RESTARTS   AGE
 pod/go-pipeline-run-kdtgn-build-and-push-to-openshift-registry-pod   0/1     Completed   0          31m

@@ -67,5 +67,9 @@ tkn pipelinerun ls
 ```
 tkn pipelinerun logs <pipelinerun_name>
 ```
+- Check the imagestream created by the latest pipelinerun
+```
+oc get is
+```
 
 # In progress!!!

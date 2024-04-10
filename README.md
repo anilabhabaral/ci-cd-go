@@ -121,7 +121,7 @@ route.route.openshift.io/go-web-app-route   go-web-app-route-go-app-pipeline.app
 - Access the application using curl
 ```
 $ curl go-web-app-route-go-app-pipeline.apps.cndsno3.cee.ral3.lab.eng.rdu2.redhat.com/greet 
-
+        
 Hello world! 
 
 ```

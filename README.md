@@ -84,7 +84,8 @@ oc get is
 oc apply -f ymls/argocd/app.yml -n openshift-gitops
 ```
 - ArgoCD Application
-[fig-2](https://github.com/anilabhabaral/ci-cd-go/blob/main/screenshot/argo-app.png)
+![fig-2](https://github.com/anilabhabaral/ci-cd-go/blob/main/screenshot/argo-app.png)
+
 - Granting permissions to a specific serviceaccount through role assignment to deploy the go application in namespace `go-app-pipeline`
 ```
 oc adm policy add-role-to-user admin system:serviceaccount:openshift-gitops:openshift-gitops-argocd-application-controller -n go-app-pipeline

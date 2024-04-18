@@ -78,7 +78,7 @@ oc get is
 ```
 
 ### CD (ArgoCD)
-- To install Openshift Gitops Operator follow this official doc: https://github.com/redhat-developer/gitops-operator
+- To install Openshift Gitops Operator follow this official doc: https://github.com/redhat-developer/gitops-operator/blob/master/docs/OpenShift%20GitOps%20Usage%20Guide.md
 - Login to argo-cd console
 - Create argocd application 
 ```

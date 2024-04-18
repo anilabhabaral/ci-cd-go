@@ -23,6 +23,7 @@ go test -v
 curl localhost:8080/greet
 curl localhost:8080/hello/Anilabha
 ```
+## Note: All the yml files arae present inside `/ymls` directory
 
 ### Pipeline (CI)
 
